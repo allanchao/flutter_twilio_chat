@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
-
 import 'package:flutter/services.dart';
 import 'package:twilio_chat/twilio_chat.dart';
 
@@ -27,7 +26,7 @@ class _MyAppState extends State<MyApp> {
     String platformVersion;
     // Platform messages may fail, so we use a try/catch PlatformException.
     try {
-      platformVersion = await TwilioChat.platformVersion;
+//      platformVersion = await TwilioChat.platformVersion;
     } on PlatformException {
       platformVersion = 'Failed to get platform version.';
     }

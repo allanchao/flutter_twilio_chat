@@ -1,6 +1,5 @@
 part of twilio_chat;
 
-
 class Message {
   //#region Private API properties
   final String _sid;
